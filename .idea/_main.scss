@@ -1,4 +1,4 @@
-.design{
+.sec-1{
   background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8bcd9d83e4c452ca9932f0ad/fdf-min.jpg ");
   height: 100vh;
   display: flex;
@@ -40,15 +40,15 @@
     text-decoration: underline;
   }
 }
-.years-work{
+.sec-2{
   background-color: #F4B82A;
   padding: 55px 0;
 }
 .years{
-  width: 35%;
+  width: 44%;
   display: flex;
   flex-wrap: wrap;
-  gap: 0px 35px;
+  gap: 65px;
 }
 .year-cards{
   flex: 1 1;
@@ -66,16 +66,17 @@
   }
 }
 .img1{
-  width: 65%;
+  width: 55%;
+  transform: scale(1.2);
 }
-.contact-us{
+.sec-3{
   background-color: #292D33;
   height: 300px;
   img{
     background-color:#292D33;
   }
 }
-.what-we-do{
+.sec-5{
   background-color: #292D33;
   padding: 55px 0;
 }
@@ -116,7 +117,7 @@
     padding: 20px 0 0 ;
   }
 }
-.construction{
+.sec-6 {
   background-color: #F4B82A;
   .row{
     display: flex;
@@ -158,7 +159,7 @@
     padding: 15px 40px;
   }
 }
-.modern-furniture {
+.sec-7 {
   background-color: #292D33;
   padding: 50px 0;
 
@@ -195,7 +196,7 @@
     padding: 20px 0;
   }
 }
-.contact-us{
+.sec-3{
   .container-md{
     padding: 50px 0;
   }
@@ -370,7 +371,7 @@
     border-radius: 15px;
   }
 }
-.get-in-touch{
+.sec-8{
   background-color: #292D33;
   padding: 50px 0;
   h3{
