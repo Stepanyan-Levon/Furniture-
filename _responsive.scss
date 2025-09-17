@@ -1,0 +1,195 @@
+@media only screen and (max-width: 950px){
+  .contact-us{
+    .row{
+      justify-content: space-evenly;
+    }
+  }
+  .contact-us i {
+    font-size: 72px;
+    color: orange;
+    margin-left: 10%;
+  }
+  .contact-number{
+    width: 53%;
+  }
+  .contact-btn{
+    margin: auto;
+    width: 34%;
+  }
+  .feature-cards {
+    width: 75%;
+    padding: 30px;
+  }
+  .feature-cards2{
+    width: 45%;
+  }
+  .project-card {
+    width: 80%;
+  }
+  .sec-6{
+    img{
+      width: 65%;
+    }
+  }
+  .furniture-cards {
+    width: 43%;
+  }
+  .sec-7{
+    .row{
+      justify-content: space-around;
+    }
+  }
+  .patterns{
+    .row{
+      justify-content: space-around;
+    }
+  }
+  .pattern-image{
+    width: 52%;
+  }
+  .pattern-image img{
+    height: 550px;
+  }
+  .pattern-image:after{
+    top: 67%;
+    left: 29%;
+  }
+  .vibrate-banner{
+    width: 55%;
+    height: 550px;
+    top: 25px;
+    left: 0;
+  }
+  .patterns2{
+    .row{
+      justify-content: space-around;
+    }
+  }
+  .pattern-image2 {
+    img{
+      height: 500px;
+    }
+  }
+  .vibrate-banner2{
+    width: 40%;
+    right: 90px;
+    left: auto;
+  }
+}
+@media only screen and (max-width: 850px){
+  .get-in-touch{
+    .row{
+      justify-content: space-around;
+      gap: 0;
+    }
+  }
+  .location{
+    width: 85%;
+  }
+  .feedback{
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 750px){
+  .what-we-do{
+    .row{
+      justify-content: space-around;
+    }
+  }
+  .feature-cards2{
+    width: 90%;
+  }
+  .feature-cards{
+    width: 90%;
+  }
+  .construction img {
+    width: 75%;
+  }
+  .modern-furniture{
+    .row{
+      justify-content: center;
+    }
+  }
+  .furniture-cards{
+    width: 56%;
+  }
+  .furniture-cards img {
+    width: 90%;
+    height: 345px;
+    object-fit: cover;
+  }
+  .vibrate-banner {
+    width: 55%;
+    height: 600px;
+    top: 25px;
+    left: 0;
+  }
+  .pattern-image2 img {
+    height: 390px;
+  }
+  .vibrate-banner2{
+    width: 48%;
+    right: 0;
+    left: 0;
+    bottom: 90px;
+  }
+}
+@media only screen and (max-width: 600px){
+.contact-us{
+  i{
+    font-size: 86px;
+    margin: auto;
+  }
+}
+  .contact-number{
+    width: 100%;
+    text-align: center;
+  }
+  .contact-btn{
+    width: 48%;
+  }
+  .project-card {
+    width: 100%;
+  }
+  .furniture-cards {
+    width: 65%;
+  }
+  .get-in-touch{
+    h3{
+      font-size: 35px;
+    }
+    p{
+      font-size: 16px;
+    }
+    .loc-card{
+      width: 100%;
+    }
+  }
+  .pattern-image2:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #EFD084;
+    top: 58%;
+    left: 51px;
+    z-index: -1;
+  }
+  .vibrate-banner2{
+    width: 57%;
+  }
+  .patterns2{
+    img{
+      width: 65%;
+      height: 270px;
+    }
+  }
+}
+@media only screen and (max-width: 500px){
+  .construction img {
+    width: 100%;
+  }
+  .project-card h3 {
+    font-size: 40px;
+  }
+}
